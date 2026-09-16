@@ -15,7 +15,7 @@ env:
 jobs:
   preview:
     name: Preview Changes
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     # Skip preview for fork PRs and Dependabot - they don't have access to Actions secrets
     if: github.event.pull_request.head.repo.full_name == github.repository && github.actor != 'dependabot[bot]'
     environment: production
