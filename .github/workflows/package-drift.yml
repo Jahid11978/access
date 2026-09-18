@@ -21,7 +21,7 @@ permissions:
 jobs:
   npm-drift:
     name: npm package access drift
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
