@@ -15,7 +15,7 @@ env:
 jobs:
   deploy-production:
     name: Deploy to Production
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     environment: production
     concurrency:
       group: deploy-production

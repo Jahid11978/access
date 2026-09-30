@@ -9,7 +9,7 @@ permissions:
 jobs:
   build:
     name: Build and Typecheck
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
